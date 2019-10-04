@@ -1,0 +1,13 @@
+#hero{
+    background-image: url("https://wallpapercave.com/wp/wp4162304.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 900px;
+}
+
+#top{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
