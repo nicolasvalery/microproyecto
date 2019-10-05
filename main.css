@@ -32,12 +32,18 @@ body{
 
 #hero1{
     font-size: 50px;
-    left:50%;
+    top: 40%;
 }
 
 #hero2{
     font-size: 30px;
-    top: 65%;    
+    top: 55%;    
+}
+
+#hero3{
+    font-size: 24px;
+    top: 62%;
+    width: 70%;   
 }
 
 #top{
@@ -46,15 +52,18 @@ body{
     right: 5px;
 }
 
-#portafolio_container{
+.container{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     z-index: 0;
     margin: 20px;
     margin-top: 50px;
-    background-image: url("bg1.jpg");
     margin: 0px;
+}
+
+#portafolio_container{
+    background-image: url("bg1.jpg");
 }
 
 .portafolio{
@@ -133,4 +142,35 @@ a:active {
 
 .text{
     color: #BBBBBB;
+}
+
+#acercademi_container{
+    background-image: url("bg3.jpg");
+}
+
+.acercademi{
+    background-image: url("bg4.jpg");
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: arvo;
+    margin: 20px;
+}
+
+#acercademi_imagen{
+    background-image: url("yo.jpg");
+    width: 30%;
+    height: 640px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#acercademi_texto{
+    width: 40%;
+}
+
+.cabeza{
+    font-size: 60px;
+    text-align: center;
 }
