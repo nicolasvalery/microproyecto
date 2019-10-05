@@ -45,3 +45,21 @@ body{
     bottom: 5px;
     right: 5px;
 }
+
+#portafolio_container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    z-index: 1;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.portafolio{
+    background-color: azure;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: arvo;
+}
