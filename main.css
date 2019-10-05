@@ -25,7 +25,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #DDEEEE;
+    color: #EEEEEE;
     text-shadow: 2px 2px #333333;
     font-family: arvo;
 }
@@ -197,16 +197,25 @@ a:active {
     border-radius: 5px;
     font-family: arvo;
     margin: 20px;
-    color: #DDEEEE;
+    color: #DDDDDD;
     border-color: black;
 }
 
 #contacto{
     background-image: url("bg4.jpg");
-    padding: 10px;
+    padding: 20px;
     border-width: 5px;
     border-style: solid;
     border-radius: 5px;
     font-family: arvo;
-    margin: 20px;
+    margin: 40px;
+    color: #111111;
+}
+
+#info{
+    font-size: 24px;
+}
+
+.imgcontacto{
+    padding-top:15px;
 }
