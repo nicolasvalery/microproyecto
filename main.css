@@ -148,6 +148,7 @@ a:active {
 
 #acercademi_container{
     background-image: url("bg3.jpg");
+    flex-flow: row nowrap;
 }
 
 .acercademi{
@@ -181,6 +182,7 @@ a:active {
 
 #habilidades_container{
     background-image: url("bg1.jpg");
+    flex-flow: row nowrap;
 }
 
 #contacto_container{
@@ -189,12 +191,14 @@ a:active {
 
 #habilidades{
     background-image: url("bg2.jpg");
-    padding: 10px;
+    padding: 20px;
     border-width: 5px;
     border-style: solid;
     border-radius: 5px;
     font-family: arvo;
     margin: 20px;
+    color: #DDEEEE;
+    border-color: black;
 }
 
 #contacto{
