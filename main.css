@@ -1,13 +1,47 @@
+body{
+    margin: 0%;
+}
+
+@font-face {
+    font-family: arvo;
+    src: url(arvo-regular.ttf);
+  }
+
 #hero{
-    background-image: url("https://wallpapercave.com/wp/wp4162304.jpg");
+    background-image: url("ineedahero.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
-    height: 900px;
+    height: 1024px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("ineedahero.jpg");
+    z-index: 1;
+}
+
+.herotext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #DDEEEE;
+    text-shadow: 2px 2px #333333;
+    font-family: arvo;
+}
+
+#hero1{
+    font-size: 50px;
+    left:50%;
+}
+
+#hero2{
+    font-size: 30px;
+    top: 65%;    
 }
 
 #top{
     position: fixed;
-    bottom: 0%;
-    right: 0%;
+    bottom: 5px;
+    right: 5px;
 }
