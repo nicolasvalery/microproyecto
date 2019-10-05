@@ -60,6 +60,8 @@ body{
     margin: 20px;
     margin-top: 50px;
     margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #portafolio_container{
@@ -168,9 +170,39 @@ a:active {
 
 #acercademi_texto{
     width: 40%;
+    padding: 50px;
+    padding-top: 20px;
 }
 
 .cabeza{
     font-size: 60px;
     text-align: center;
+}
+
+#habilidades_container{
+    background-image: url("bg1.jpg");
+}
+
+#contacto_container{
+    background-image: url("bg3.jpg");
+}
+
+#habilidades{
+    background-image: url("bg2.jpg");
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: arvo;
+    margin: 20px;
+}
+
+#contacto{
+    background-image: url("bg4.jpg");
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: arvo;
+    margin: 20px;
 }
