@@ -14,7 +14,7 @@ body{
     position: relative;
     height: 1024px;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("ineedahero.jpg");
-    z-index: 1;
+    z-index: 2;
 }
 
 .herotext{
@@ -50,9 +50,11 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    z-index: 1;
+    z-index: 0;
     margin: 20px;
     margin-top: 50px;
+    background-color: #333333;
+    margin: 0px;
 }
 
 .portafolio{
@@ -62,4 +64,37 @@ body{
     border-style: solid;
     border-radius: 5px;
     font-family: arvo;
+    width: 40%;
+    margin: 20px;
+}
+
+.portafolio_image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: arvo;
+    width: 50%;
+    margin: 20px;
+}
+
+.portafolio_header{
+    font-size: 24px;
+}
+
+#portafolio1{
+    background-image: url("hormigas.jpg");
+    background-size: cover;
+}
+
+#portafolio2{
+    background-image: url("animales.jpg");
+    background-size: cover;
+}
+
+#portafolio3{
+    background-image: url("ZOMBOCOM.png");
+    background-color: white;
 }
